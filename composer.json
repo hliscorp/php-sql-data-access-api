@@ -1,8 +1,11 @@
 {
-    "name": "lucinda/sql-data-access",
+    "name": "hlis/sql-data-access",
     "type": "library",
     "description": "Abstracts all communication with SQL servers on top of PDO",
-    "keywords": ["sql","data access"],
+    "keywords": [
+        "sql",
+        "data access"
+    ],
     "homepage": "http://www.lucinda-framework.com/sql-data-access-api",
     "license": "MIT",
     "authors": [

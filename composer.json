@@ -1,29 +1,40 @@
 {
-    "name": "lucinda/sql-data-access",
+    "name": "hlis/sql-data-access",
     "type": "library",
     "description": "API abstracting communication with SQL providers (eg: MySQL) on top of PDO inspired by Java JDBC",
-    "keywords": ["sql","data access","querying", "processing"],
+    "keywords": [
+        "sql",
+        "data access",
+        "querying",
+        "processing"
+    ],
     "homepage": "https://github.com/aherne/php-sql-data-access-api",
     "license": "MIT",
     "require": {
         "php": "^8.1",
-    	"ext-SimpleXML": "*",
-    	"ext-pdo": "*"
+        "ext-SimpleXML": "*",
+        "ext-pdo": "*"
     },
     "require-dev": {
-    	"lucinda/unit-testing": "^2.0"
+        "hlis/unit-testing": "^2.0"
     },
     "autoload": {
-    	"psr-4": {
+        "psr-4": {
             "Lucinda\\SQL\\": "src/",
             "Test\\Lucinda\\SQL\\": "tests/"
-    	}
+        }
     },
     "authors": [
         {
             "name": "Lucian Popescu",
             "email": "lucian.gabriel.popescu@gmail.com",
             "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/unit-testing"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "name": "hlis/sql-data-access",
+    "name": "lucinda/sql-data-access",
     "type": "library",
     "description": "API abstracting communication with SQL providers (eg: MySQL) on top of PDO inspired by Java JDBC",
     "keywords": [
@@ -16,7 +16,7 @@
         "ext-pdo": "*"
     },
     "require-dev": {
-        "hlis/unit-testing": "^1.0"
+        "lucinda/unit-testing": "^1.0"
     },
     "autoload": {
         "psr-4": {
